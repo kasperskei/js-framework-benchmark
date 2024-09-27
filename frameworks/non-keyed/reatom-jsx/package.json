@@ -1,0 +1,31 @@
+{
+  "name": "js-framework-benchmark-reatom-jsx",
+  "version": "0.0.0",
+  "type": "module",
+  "js-framework-benchmark": {
+    "frameworkVersionFromPackage": "@reatom/jsx",
+    "frameworkHomeURL": "https://www.reatom.dev/package/jsx/",
+    "customURL": "/dist"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/krausest/js-framework-benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krausest/js-framework-benchmark.git"
+  },
+  "dependencies": {
+    "@reatom/framework": "^3.4.52",
+    "@reatom/jsx": "^3.13.1",
+    "@reatom/web": "^3.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  }
+}
