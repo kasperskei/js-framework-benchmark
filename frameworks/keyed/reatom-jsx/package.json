@@ -1,0 +1,23 @@
+{
+  "name": "js-framework-benchmark-reatom-jsx",
+  "version": "0.0.0",
+  "type": "module",
+  "js-framework-benchmark": {
+    "frameworkVersionFromPackage": "@reatom/jsx",
+    "frameworkHomeURL": "https://www.reatom.dev/package/jsx/",
+    "customURL": "/dist"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build-prod": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reatom/framework": "3.4.60",
+    "@reatom/jsx": "3.18.0"
+  },
+  "devDependencies": {
+    "typescript": "5.7.3",
+    "vite": "6.1.1"
+  }
+}
